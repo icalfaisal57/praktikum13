@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Starter</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="index3.html" class="nav-link">Home</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="#" class="nav-link">Contact</a>
+      </li>
+    </ul>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Navbar Search -->
+      <li class="nav-item">
+        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+          <i class="fas fa-search"></i>
+        </a>
+        <div class="navbar-search-block">
+          <form class="form-inline">
+            <div class="input-group input-group-sm">
+              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+              <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                  <i class="fas fa-search"></i>
+                </button>
+                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                  <i class="fas fa-times"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </li>
+
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Brad Diesel
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  John Pierce
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  Nora Silvester
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">The subject goes here</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+        </div>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-header">15 Notifications</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 new messages
+            <span class="float-right text-muted text-sm">3 mins</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 friend requests
+            <span class="float-right text-muted text-sm">12 hours</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 new reports
+            <span class="float-right text-muted text-sm">2 days</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+          <i class="fas fa-expand-arrows-alt"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+          <i class="fas fa-th-large"></i>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="index3.html" class="brand-link">
+      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">AdminLTE 3</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="data:image/jpeg;base64,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" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">Ahmad Faisal Nurhakim</a>
+        </div>
+      </div>
+
+      <!-- SidebarSearch Form -->
+      <div class="form-inline">
+        <div class="input-group" data-widget="sidebar-search">
+          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+            <button class="btn btn-sidebar">
+              <i class="fas fa-search fa-fw"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
+              <i class="nav-icon fas fa-tachometer-alt"></i>
+              <p>
+                Data praktikum
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="#" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>praktikum 1</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>praktikum 2</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>praktikum 3</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>praktikum 4</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>praktikum 5</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="login.html" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Logout
+                <span class="right badge badge-danger">Logout</span>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">praktikum13</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Starter Page</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+         
+          <!-- /.col-md-6 -->
+          <div class="col-md-12">
+            <a id="modal-355632" href="#modal-container-355632" role="button" class="btn" data-toggle="modal">Tambah Mahasiswa</a>
+           
+           <div class="modal fade" id="modal-container-355632" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+             <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <h5 class="modal-title" id="myModalLabel">
+                     Modal title
+                   </h5> 
+                   <button type="button" class="close" data-dismiss="modal">
+                     <span aria-hidden="true">×</span>
+                   </button>
+                 </div>
+                 <div class="modal-body">
+                   ...
+                 </div>
+                 <div class="modal-footer">
+                    
+                   <button type="button" class="btn btn-primary">
+                     Save changes
+                   </button> 
+                   <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                     Close
+                   </button>
+                 </div>
+               </div>
+               
+             </div>
+             
+           </div>
+           
+           <table class="table">
+             <thead>
+               <tr>
+                 <th>
+                   #
+                 </th>
+                 <th>
+                   NIM
+                 </th>
+                 <th>
+                   Nama Mahasiswa
+                 </th>
+                 <th>
+                   Rombel
+                 </th>
+               </tr>
+             </thead>
+             <tbody>
+               <tr>
+                 <td>
+                   1
+                 </td>
+                 <td>
+                   TB - Monthly
+                 </td>
+                 <td>
+                   01/04/2012
+                 </td>
+                 <td>
+                   Default
+                 </td>
+               </tr>
+               <tr class="table-active">
+                 <td>
+                   1
+                 </td>
+                 <td>
+                   TB - Monthly
+                 </td>
+                 <td>
+                   01/04/2012
+                 </td>
+                 <td>
+                   Approved
+                 </td>
+               </tr>
+               <tr class="table-success">
+                 <td>
+                   2
+                 </td>
+                 <td>
+                   TB - Monthly
+                 </td>
+                 <td>
+                   02/04/2012
+                 </td>
+                 <td>
+                   Declined
+                 </td>
+               </tr>
+               <tr class="table-warning">
+                 <td>
+                   3
+                 </td>
+                 <td>
+                   TB - Monthly
+                 </td>
+                 <td>
+                   03/04/2012
+                 </td>
+                 <td>
+                   Pending
+                 </td>
+               </tr>
+               <tr class="table-danger">
+                 <td>
+                   4
+                 </td>
+                 <td>
+                   TB - Monthly
+                 </td>
+                 <td>
+                   04/04/2012
+                 </td>
+                 <td>
+                   Call in to confirm
+                 </td>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+          <!-- /.col-md-6 -->
+        </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+    <div class="p-3">
+      <h5>Title</h5>
+      <p>Sidebar content</p>
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+
+  <!-- Main Footer -->
+  <footer class="main-footer">
+    <!-- To the right -->
+    <div class="float-right d-none d-sm-inline">
+      Anything you want
+    </div>
+    <!-- Default to the left -->
+    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+  </footer>
+</div>
+<!-- ./wrapper -->
+
+<!-- REQUIRED SCRIPTS -->
+
+<!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.min.js"></script>
+</body>
+</html>
